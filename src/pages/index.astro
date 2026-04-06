@@ -38,11 +38,11 @@ const steps = [
   { step: "3", title: "Paste", desc: "Downscaled PNG is in clipboard. Paste into your LLM." },
 ];
 const scaleRows = [
-  ["1x",     "3456 × 2234 px", "~12 MB", "1028 / 1105", "~1.5¢"],
-  ["1/2x",   "1728 × 1117 px", "~3 MB",  "1028 / 1105", "~1.5¢"],
-  ["1/2.5x", "1382 × 894 px",  "~1.8 MB", "1028 / 1105", "~1.5¢"],
-  ["1/3x",   "1152 × 745 px",  "~1.2 MB", "1028 / 1105", "~1.5¢"],
-  ["1/4x",   "864 × 559 px",   "~600 KB", "644 / 765",   "~1.0¢"],
+  ["1x",     "3456 × 2234 px", "~12 MB", "~10,294", "~15.4¢"],
+  ["1/2x",   "1728 × 1117 px", "~3 MB",  "~2,574", "~3.9¢"],
+  ["1/2.5x", "1382 × 894 px",  "~1.8 MB", "~1,647", "~2.5¢"],
+  ["1/3x",   "1152 × 745 px",  "~1.2 MB", "~1,144", "~1.7¢"],
+  ["1/4x",   "864 × 559 px",   "~600 KB", "~644",   "~1.0¢"],
 ];
 ---
 
@@ -182,7 +182,7 @@ const scaleRows = [
               <th class="px-6 py-3 text-gray-400 font-medium">Preset</th>
               <th class="px-6 py-3 text-gray-400 font-medium">MBP 16" (3456×2234)</th>
               <th class="px-6 py-3 text-gray-400 font-medium">File Size</th>
-              <th class="px-6 py-3 text-gray-400 font-medium">Tokens (Opus / 4o)</th>
+              <th class="px-6 py-3 text-gray-400 font-medium">Tokens (Opus)</th>
               <th class="px-6 py-3 text-gray-400 font-medium">Cost (Opus)</th>
             </tr>
           </thead>
